@@ -12,7 +12,7 @@ public class Primo{
 		try {
 			int num = Integer.parseInt(numero);
 			if (num < 1){
-				System.out.println("Número no natural o natural no mayor que 1");
+				System.out.println("Número no natural o no mayor que 1");
 				return false;
 			}
 			else {
